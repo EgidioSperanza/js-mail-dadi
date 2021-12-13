@@ -6,7 +6,7 @@ const response = document.getElementById('response');
 check.addEventListener ('click', ()=>{
     let checked= false;
     for (i=0; i<emailSubscriber.length; i++){
-        if(email.value===emailSubscriber[i]){
+        if(email.value.toLowerCase()===emailSubscriber[i].toLowerCase()){
             checked=true;
             break;
         }
