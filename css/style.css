@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+}
+
+.box_mail {
+  background-color: cadetblue;
+  padding: 20px;
+  min-height: 130px;
+}
+
+#response {
+  margin-top: 10px;
+}
+
+.container {
+  width: 70%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.btnDice {
+  margin: 2rem 0 0.625rem 0;
+}
+
+.diceButton {
+  box-shadow: 0 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #4ecca2 5%, #408c99 100%);
+  background-color: #4ecca2;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #3d768a;
+}
+
+.diceButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #4ecca2 100%);
+  background-color: #408c99;
+}
+
+.diceButton:active {
+  position: relative;
+  top: 1px;
+}
+
+h1.diceTitle {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 60px;
+  color: #4ecca3;
+}
+
+p {
+  font-size: 28px;
+  color: #4ecca3;
+}
+
+img {
+  width: 80%;
+}

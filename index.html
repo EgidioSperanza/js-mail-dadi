@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----CSS---- -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Email e Dadi</title>
+</head>
+<body>
+    <div class="box_mail">
+        <h1>Email Validation</h1>
+        <form name="email" id="email" action="post">
+            <label for="user:email">Please type your email</label>
+            <input id="user_email" name="user_email" type="text">
+            <input id="send_email" name="send_email" value="Check" type="button">
+        </form>
+        <div id="response"></div>
+    </div>
+
+    <hr />
+
+    <div class="container">
+        <h1 id="winner" class="diceTitle">The Dice Game.</h1>
+    
+        <div class="dice">
+          <p>Computer</p>
+          <img class="img1" src="./img/dice6.png">
+        </div>
+    
+        <div class="dice">
+          <p>Player</p>
+          <img class="img2" src="./img/dice6.png">
+        </div>
+        <div class="btnDice">
+          <button class="diceButton" id="diceButton" type="button" name="button">Click me to roll the dice</button>
+        </div>
+      </div>
+        
+    <script src="./js/main.js"></script>
+</body>
+</html>
