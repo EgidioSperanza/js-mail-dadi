@@ -1,4 +1,4 @@
-const emailSubscriber = ['xxx@dominiomail.com' , 'yyy@dominiomail.com', 'zzz@dominiomail.com' ]
+const emailSubscriber = ['xxx@dominiomail.com', 'yyy@dominiomail.com', 'zzz@dominiomail.com' ]
 const email = document.getElementById('user_email');
 const check = document.getElementById('send_email');
 const response = document.getElementById('response');
