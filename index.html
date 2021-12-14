@@ -12,7 +12,7 @@
     <div class="box_mail">
         <h1>Email Validation</h1>
         <form name="email" id="email" action="post">
-            <label for="user:email">Please type your email</label>
+            <label for="user_email">Please type your email</label>
             <input id="user_email" name="user_email" type="text">
             <input id="send_email" name="send_email" value="Check" type="button">
         </form>
@@ -20,7 +20,18 @@
     </div>
 
     <hr />
+    
+    <div class="box_mail">
+        <h1>Email Validation with includes</h1>
+        <form name="emailB" id="emailB" action="post">
+            <label for="user_emailB">Please type your email</label>
+            <input id="user_emailB" name="user_emailB" type="text">
+            <input id="send_emailB" name="send_emailB" value="Check" type="button">
+        </form>
+        <div id="responseB"></div>
+    </div>
 
+    <hr />
     <div class="container">
         <h1 id="winner" class="diceTitle">The Dice Game.</h1>
     

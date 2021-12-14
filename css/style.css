@@ -14,7 +14,7 @@ body {
   min-height: 130px;
 }
 
-#response {
+#response, #responseB {
   margin-top: 10px;
 }
 

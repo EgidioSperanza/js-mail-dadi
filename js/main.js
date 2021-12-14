@@ -14,6 +14,18 @@ check.addEventListener ('click', ()=>{
     (checked) ? response.innerHTML ='Risulti iscritto alla nostra newsletters' : response.innerHTML = 'Non risulti ancora iscritto alla newsletters';
 })
 // ----------------------------------------------
+const emailB = document.getElementById('user_emailB');
+const checkB = document.getElementById('send_emailB');
+const responseB = document.getElementById('responseB');
+
+checkB.addEventListener ('click', ()=>{
+    if(emailSubscriber.includes(emailB.value.toLowerCase())) {
+      responseB.innerHTML ='Risulti iscritto alla nostra newsletters';
+    } else{
+      responseB.innerHTML ='Non risulti iscritto alla nostra newsletters';
+    }
+})
+// ----------------------------------------------
 const diceButton = document.getElementById('diceButton');
 const winner = document.getElementById('winner');
 
